@@ -1,0 +1,377 @@
+[
+  {
+    "item": 3963816,
+    "store_cession_price": 0.08,
+    "sales_price": 0.15
+  },
+  {
+    "item": 833348,
+    "store_cession_price": 0.08,
+    "sales_price": 0.2
+  },
+  {
+    "item": 833356,
+    "store_cession_price": 0.15,
+    "sales_price": 0.3
+  },
+  {
+    "item": 833364,
+    "store_cession_price": 0.2,
+    "sales_price": 0.4
+  },
+  {
+    "item": 833372,
+    "store_cession_price": 0.29,
+    "sales_price": 0.5
+  },
+  {
+    "item": 833380,
+    "store_cession_price": 0.35,
+    "sales_price": 0.6
+  },
+  {
+    "item": 833399,
+    "store_cession_price": 0.43,
+    "sales_price": 0.7
+  },
+  {
+    "item": 833402,
+    "store_cession_price": 0.52,
+    "sales_price": 0.85
+  },
+  {
+    "item": 833410,
+    "store_cession_price": 0.63,
+    "sales_price": 1.0
+  },
+  {
+    "item": 833429,
+    "store_cession_price": 0.69,
+    "sales_price": 1.2
+  },
+  {
+    "item": 833437,
+    "store_cession_price": 0.75,
+    "sales_price": 1.3
+  },
+  {
+    "item": 833445,
+    "store_cession_price": 0.82,
+    "sales_price": 1.4
+  },
+  {
+    "item": 833453,
+    "store_cession_price": 0.91,
+    "sales_price": 1.5
+  },
+  {
+    "item": 833461,
+    "store_cession_price": 1.01,
+    "sales_price": 1.7
+  },
+  {
+    "item": 833488,
+    "store_cession_price": 1.1,
+    "sales_price": 1.8
+  },
+  {
+    "item": 833496,
+    "store_cession_price": 1.2,
+    "sales_price": 2.0
+  },
+  {
+    "item": 833518,
+    "store_cession_price": 1.33,
+    "sales_price": 2.2
+  },
+  {
+    "item": 833526,
+    "store_cession_price": 1.46,
+    "sales_price": 2.4
+  },
+  {
+    "item": 833534,
+    "store_cession_price": 1.62,
+    "sales_price": 2.5
+  },
+  {
+    "item": 833542,
+    "store_cession_price": 1.77,
+    "sales_price": 2.8
+  },
+  {
+    "item": 833550,
+    "store_cession_price": 1.95,
+    "sales_price": 3.2
+  },
+  {
+    "item": 833569,
+    "store_cession_price": 2.15,
+    "sales_price": 3.6
+  },
+  {
+    "item": 833577,
+    "store_cession_price": 2.36,
+    "sales_price": 3.8
+  },
+  {
+    "item": 833585,
+    "store_cession_price": 2.59,
+    "sales_price": 4.2
+  },
+  {
+    "item": 833593,
+    "store_cession_price": 2.85,
+    "sales_price": 4.6
+  },
+  {
+    "item": 833607,
+    "store_cession_price": 3.14,
+    "sales_price": 5.0
+  },
+  {
+    "item": 833615,
+    "store_cession_price": 3.45,
+    "sales_price": 5.5
+  },
+  {
+    "item": 833623,
+    "store_cession_price": 3.8,
+    "sales_price": 6.0
+  },
+  {
+    "item": 833631,
+    "store_cession_price": 4.18,
+    "sales_price": 6.8
+  },
+  {
+    "item": 833658,
+    "store_cession_price": 4.57,
+    "sales_price": 7.5
+  },
+  {
+    "item": 833666,
+    "store_cession_price": 5.03,
+    "sales_price": 8.0
+  },
+  {
+    "item": 833674,
+    "store_cession_price": 5.55,
+    "sales_price": 9.0
+  },
+  {
+    "item": 833682,
+    "store_cession_price": 6.1,
+    "sales_price": 10.0
+  },
+  {
+    "item": 833690,
+    "store_cession_price": 6.71,
+    "sales_price": 11.5
+  },
+  {
+    "item": 833704,
+    "store_cession_price": 7.39,
+    "sales_price": 12.5
+  },
+  {
+    "item": 833712,
+    "store_cession_price": 8.14,
+    "sales_price": 13.5
+  },
+  {
+    "item": 833720,
+    "store_cession_price": 8.95,
+    "sales_price": 15.0
+  },
+  {
+    "item": 833739,
+    "store_cession_price": 9.85,
+    "sales_price": 16.0
+  },
+  {
+    "item": 833747,
+    "store_cession_price": 10.82,
+    "sales_price": 18.0
+  },
+  {
+    "item": 833755,
+    "store_cession_price": 11.91,
+    "sales_price": 20.0
+  },
+  {
+    "item": 833763,
+    "store_cession_price": 13.11,
+    "sales_price": 22.0
+  },
+  {
+    "item": 833771,
+    "store_cession_price": 14.42,
+    "sales_price": 24.0
+  },
+  {
+    "item": 833798,
+    "store_cession_price": 15.87,
+    "sales_price": 26.0
+  },
+  {
+    "item": 833801,
+    "store_cession_price": 17.46,
+    "sales_price": 29.0
+  },
+  {
+    "item": 833828,
+    "store_cession_price": 19.19,
+    "sales_price": 32.0
+  },
+  {
+    "item": 833836,
+    "store_cession_price": 21.11,
+    "sales_price": 35.0
+  },
+  {
+    "item": 833844,
+    "store_cession_price": 23.23,
+    "sales_price": 40.0
+  },
+  {
+    "item": 833852,
+    "store_cession_price": 25.55,
+    "sales_price": 45.0
+  },
+  {
+    "item": 833860,
+    "store_cession_price": 28.1,
+    "sales_price": 50.0
+  },
+  {
+    "item": 833879,
+    "store_cession_price": 30.95,
+    "sales_price": 55.0
+  },
+  {
+    "item": 833887,
+    "store_cession_price": 34.0,
+    "sales_price": 60.0
+  },
+  {
+    "item": 833895,
+    "store_cession_price": 37.35,
+    "sales_price": 65.0
+  },
+  {
+    "item": 833909,
+    "store_cession_price": 41.16,
+    "sales_price": 70.0
+  },
+  {
+    "item": 833917,
+    "store_cession_price": 45.28,
+    "sales_price": 75.0
+  },
+  {
+    "item": 833925,
+    "store_cession_price": 49.7,
+    "sales_price": 80.0
+  },
+  {
+    "item": 833933,
+    "store_cession_price": 54.73,
+    "sales_price": 90.0
+  },
+  {
+    "item": 833941,
+    "store_cession_price": 60.22,
+    "sales_price": 100.0
+  },
+  {
+    "item": 833968,
+    "store_cession_price": 66.32,
+    "sales_price": 110.0
+  },
+  {
+    "item": 833976,
+    "store_cession_price": 72.87,
+    "sales_price": 120.0
+  },
+  {
+    "item": 833984,
+    "store_cession_price": 80.19,
+    "sales_price": 130.0
+  },
+  {
+    "item": 833992,
+    "store_cession_price": 88.12,
+    "sales_price": 145.0
+  },
+  {
+    "item": 834018,
+    "store_cession_price": 96.96,
+    "sales_price": 155.0
+  },
+  {
+    "item": 834026,
+    "store_cession_price": 106.71,
+    "sales_price": 170.0
+  },
+  {
+    "item": 834034,
+    "store_cession_price": 117.39,
+    "sales_price": 190.0
+  },
+  {
+    "item": 834042,
+    "store_cession_price": 129.12,
+    "sales_price": 210.0
+  },
+  {
+    "item": 834050,
+    "store_cession_price": 142.08,
+    "sales_price": 230.0
+  },
+  {
+    "item": 834069,
+    "store_cession_price": 156.26,
+    "sales_price": 250.0
+  },
+  {
+    "item": 834077,
+    "store_cession_price": 182.94,
+    "sales_price": 300.0
+  },
+  {
+    "item": 834085,
+    "store_cession_price": 207.94,
+    "sales_price": 350.0
+  },
+  {
+    "item": 834093,
+    "store_cession_price": 228.67,
+    "sales_price": 400.0
+  },
+  {
+    "item": 834107,
+    "store_cession_price": 251.54,
+    "sales_price": 430.0
+  },
+  {
+    "item": 834115,
+    "store_cession_price": 276.69,
+    "sales_price": 460.0
+  },
+  {
+    "item": 834123,
+    "store_cession_price": 304.44,
+    "sales_price": 490.0
+  },
+  {
+    "item": 834131,
+    "store_cession_price": 334.93,
+    "sales_price": 550.0
+  },
+  {
+    "item": 834158,
+    "store_cession_price": 670.0,
+    "sales_price": 1100.0
+  }
+]

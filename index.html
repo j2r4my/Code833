@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recherche de Prix</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Trouver un prix et un code article</h1>
+        <div class="input-group">
+            <label for="price">Store Cession Price :</label>
+            <input type="text" id="price" placeholder="Ex: 12.50 ou 12,50">
+        </div>
+        <button id="search-button">Rechercher</button>
+        <div id="results">
+            </div>
+    </div>
+
+    <script>
+        document.getElementById('search-button').addEventListener('click', async () => {
+            const priceInput = document.getElementById('price').value;
+            const resultsDiv = document.getElementById('results');
+            resultsDiv.innerHTML = ''; // Efface les résultats précédents
+
+            if (!priceInput.trim()) {
+                resultsDiv.innerHTML = '<p class="error">Veuillez entrer un prix pour lancer la recherche.</p>';
+                return;
+            }
+
+            try {
+                const response = await fetch('/search', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({ price: priceInput }),
+                });
+
+                const data = await response.json();
+
+                if (response.ok) {
+                    const { closest_cession_price, sales_price, item_code } = data;
+                    resultsDiv.innerHTML = `
+                        <p class="success">Pour un prix de cession de ${priceInput} :</p>
+                        <p>➡️ Store Cession Price le plus proche : ${closest_cession_price.toFixed(2)}</p>
+                        <p>➡️ Sales Prices correspondant : ${sales_price.toFixed(2)}</p>
+                        <p>➡️ Code Item : ${item_code}</p>
+                    `;
+                } else {
+                    resultsDiv.innerHTML = `<p class="error">${data.error}</p>`;
+                }
+            } catch (error) {
+                resultsDiv.innerHTML = `<p class="error">Erreur de connexion au serveur.</p>`;
+            }
+        });
+    </script>
+</body>
+</html>
